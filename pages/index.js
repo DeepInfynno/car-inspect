@@ -1,4 +1,3 @@
-import { Inter } from "@next/font/google";
 import { Header } from "../components/layouts";
 import CarDetail from "../components/CarDetail";
 import { Accordion, Meta, Notes, RatingGuid, Report } from "../components";

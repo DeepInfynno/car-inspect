@@ -42,9 +42,7 @@ const carSpecifications = [
 
 const Report = () => {
   const [active, setActive] = useState(reportMenu[0]);
-  useEffect(() => {
-    console.log(active);
-  }, [active]);
+  useEffect(() => {}, [active]);
 
   return (
     <div className="flex flex-col gap-20">
