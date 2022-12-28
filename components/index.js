@@ -5,3 +5,4 @@ export { default as Report } from "./Report";
 export { default as Comment } from "./Comment";
 export { default as RatingGuid } from "./RatingGuid";
 export { default as Accordion } from "./Accordion";
+export { default as Meta } from "./Meta";

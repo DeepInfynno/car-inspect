@@ -1,15 +1,19 @@
-import Head from "next/head";
-import Image from "next/image";
 import { Inter } from "@next/font/google";
 import { Header } from "../components/layouts";
 import CarDetail from "../components/CarDetail";
-import { Accordion, Notes, RatingGuid, Report } from "../components";
-
-const inter = Inter({ subsets: ["latin"] });
+import { Accordion, Meta, Notes, RatingGuid, Report } from "../components";
+import CarImage from "../assets/images/car.svg";
 
 export default function Home() {
   return (
     <div className="">
+      <Meta
+        title={"Report"}
+        description={"Lorem, ipsum dolor sit amet consectetur"}
+        og_title={"Report"}
+        og_description={"Lorem, ipsum dolor sit amet consectetur"}
+        og_image={CarImage}
+      />
       <Header />
       <div className="w-full max-w-[1300px] 2xl:max-w-[1500px] bg-white px-5 sm:px-10 md:px-16 xl:px-0 lg:rounded-3xl mx-auto -mt-[200px] py-[104px]">
         <div className="w-full max-w-[1080px] 2xl:max-w-[1280px] mx-auto">
