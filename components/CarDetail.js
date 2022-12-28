@@ -2,6 +2,10 @@ import Image from "next/image";
 import React from "react";
 import CarImage from "../assets/images/car.svg";
 import ImageGallery from "./ImageGallery";
+import CarImage1 from "../assets/images/carImage1.svg";
+import CarImage2 from "../assets/images/carImage2.svg";
+import CarImage3 from "../assets/images/carImage3.svg";
+import CarImage4 from "../assets/images/carImage4.svg";
 
 const carDetail = [
   { title: "VIN", description: "Wbauf52050pm79918" },
@@ -14,16 +18,20 @@ const carDetail = [
 
 const images = [
   {
-    original: "https://picsum.photos/id/1018/1000/600/",
-    thumbnail: "https://picsum.photos/id/1018/250/150/",
+    original:
+      "https://img.freepik.com/premium-photo/generic-brandless-modern-sport-car_110488-1758.jpg?w=2000",
+    thumbnail:
+      "https://img.freepik.com/premium-photo/generic-brandless-modern-sport-car_110488-1758.jpg?w=2000",
   },
   {
-    original: "https://picsum.photos/id/1015/1000/600/",
-    thumbnail: "https://picsum.photos/id/1015/250/150/",
+    original: "https://i.ytimg.com/vi/ekgUjyWe1Yc/maxresdefault.jpg",
+    thumbnail: "https://i.ytimg.com/vi/ekgUjyWe1Yc/maxresdefault.jpg",
   },
   {
-    original: "https://picsum.photos/id/1019/1000/600/",
-    thumbnail: "https://picsum.photos/id/1019/250/150/",
+    original:
+      "https://images.pexels.com/photos/120049/pexels-photo-120049.jpeg?cs=srgb&dl=pexels-mike-b-120049.jpg&fm=jpg",
+    thumbnail:
+      "https://images.pexels.com/photos/120049/pexels-photo-120049.jpeg?cs=srgb&dl=pexels-mike-b-120049.jpg&fm=jpg",
   },
 ];
 

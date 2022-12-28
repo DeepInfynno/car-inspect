@@ -42,4 +42,7 @@ body {
   .image-gallery-slide {
     padding-inline: 10px;
   }
+  .image-gallery-index {
+    left: 44%;
+  }
 }
